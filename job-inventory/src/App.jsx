@@ -1,10 +1,13 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
+import Header from './components/Header';
 
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <Header></Header>
+      <Outlet/>
+    </div>
   );
 };
 
