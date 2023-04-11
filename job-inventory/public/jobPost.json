@@ -1,0 +1,102 @@
+[
+    {
+        "id": "1",
+        "job_post": "Software Engineer",
+        "company": "Google LLC",
+        "company_logo": "/assets/Logo/google-1-1 1-1.png",
+        "job_mode": "Remote",
+        "job_type": "Full Time",
+        "company_location": "San Francisco, CA",
+        "salary": "$120,000 - $140,000",
+        "job_description": "We are seeking a talented software engineer to join our team...",
+        "job_responsibility": "Design and implement software solutions...",
+        "education_requirement": "Bachelor's degree in Computer Science or a related field",
+        "experience": "3+ years of software engineering experience",
+        "phone": "(555) 123-4567",
+        "email": "jobs@abc-tech.com"
+      },
+      
+      {
+        "id": "2",
+        "job_post": "Marketing Manager",
+        "company": "Tesla",
+        "company_logo": "/assets/Logo/tesla-9 1.png",
+        "job_mode": "onsite",
+        "job_type": "part-time",
+        "company_location": "New York, NY",
+        "salary": "$60,000 - $80,000",
+        "job_description": "We are seeking a skilled marketing manager to join our team...",
+        "job_responsibility": "Develop and implement marketing strategies...",
+        "education_requirement": "Bachelor's degree in Marketing or a related field",
+        "experience": "5+ years of marketing experience",
+        "phone": "(555) 987-6543",
+        "email": "jobs@xyz-corp.com"
+      },
+
+      {
+        "id": "3",
+        "job_post": "Marketing Manager",
+        "company": "Google LLC",
+        "company_logo": "/assets/Logo/google-1-1 1-1.png",
+        "job_mode": "Onsite",
+        "job_type": "Full Time",
+        "company_location": "New York, NY",
+        "salary": "$80,000 - $100,000",
+        "job_description": "We are seeking a Marketing Manager to join our team and oversee our marketing campaigns. The ideal candidate will have experience in developing and implementing marketing strategies and be able to manage a team of marketing professionals.",
+        "job_responsibility": "Develop and implement marketing strategies, manage a team of marketing professionals, analyze and report on campaign performance",
+        "education_requirement": "Bachelor's degree in Marketing or related field",
+        "experience": "5+ years of experience in marketing management",
+        "phone": "555-555-1234",
+        "email": "jobs@abccompany.com"
+      },
+
+      {
+        "id": "4",
+        "job_post": "Software Engineer",
+        "company": "Tesla",
+        "company_logo": "/assets/Logo/tesla-9 1.png",
+        "job_mode": "Remote",
+        "job_type": "Part-time",
+        "company_location": "San Francisco, CA",
+        "salary": "$50 - $70 per hour",
+        "job_description": "We are seeking a skilled software engineer to help us build and maintain our web applications. The ideal candidate will have experience in web development and be familiar with modern JavaScript frameworks such as React or Angular.",
+        "job_responsibility": "Build and maintain web applications, work collaboratively with the development team, participate in code reviews and testing",
+        "education_requirement": "Bachelor's degree in Computer Science or related field",
+        "experience": "3+ years of experience in web development",
+        "phone": "555-555-5678",
+        "email": "careers@xyztech.com"
+      },
+
+      {
+        "id": "5",
+        "job_post": "Software Engineer",
+        "company": "Netflix",
+        "company_logo": "/assest/Logo/netflix-4 1.png",
+        "job_mode": "Remote",
+        "job_type": "Full Time",
+        "company_location": "Mountain View, CA",
+        "salary": "Competitive",
+        "job_description": "We're looking for a skilled software engineer to join our team and help build cutting-edge software solutions.",
+        "job_responsibility": "- Design, develop, and maintain software applications\n- Write clean, efficient, and maintainable code\n- Participate in code reviews and ensure code quality\n- Collaborate with cross-functional teams to identify and solve complex problems\n- Stay up-to-date with emerging trends and technologies",
+        "education_requirement": "Bachelor's or Master's degree in Computer Science or related field",
+        "experience": "2+ years of experience in software development",
+        "phone": "(123) 456-7890",
+        "email": "careers@google.com"
+      },
+      {
+        "id": "6",
+        "job_post": "Marketing Manager",
+        "company": "Airbnb",
+        "company_logo": "/assest/All Images/airbnb.png",
+        "job_mode": "onsite",
+        "job_type": "part-time",
+        "company_location": "Cupertino, CA",
+        "salary": "$80,000 - $100,000 per year",
+        "job_description": "We're seeking an experienced marketing manager to help us develop and execute marketing campaigns for our products.",
+        "job_responsibility": "- Develop and implement marketing strategies to promote products\n- Analyze market trends and customer behavior to identify opportunities\n- Manage campaigns across multiple channels\n- Collaborate with cross-functional teams to ensure effective execution\n- Track and report on campaign performance",
+        "education_requirement": "Bachelor's or Master's degree in Marketing, Business, or related field",
+        "experience": "5+ years of experience in marketing",
+        "phone": "(123) 456-7890",
+        "email": "careers@apple.com"
+      }
+]
