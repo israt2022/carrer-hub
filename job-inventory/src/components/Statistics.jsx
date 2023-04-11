@@ -47,7 +47,7 @@ const Statistics = () => {
     
   ];
   return (
-    <div>
+    <div className='mt-8'>
         <LineChart 
         width={800}
         height={500}
