@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -259,4 +260,69 @@ color: #1A1919;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
+}
+
+footer {
+    background: #1A1919;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.site-name {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.site-des {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 20px;
+}
+
+.flex-basis-40 {
+    width: 40%;
+}
+
+.footer-link-category {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+ul.footer-links li a, .contact-info {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+/* or 250% */
+    color: rgba(255, 255, 255, 0.7);
+}
+
+hr.separetor {
+    border: 1px solid #dedee912;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.rights > * {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+/* or 22px */
+    color: rgba(255, 255, 255, 0.4);
 }

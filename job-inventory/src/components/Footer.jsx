@@ -2,24 +2,56 @@ import React from "react";
 
 const Footer = () => {
     return(
-        <div className="footer-container flex flex-wrap flex-col items-center justify-between sm:flex-row">
-            <div className="flex-basis-40">
+        <footer>
+            <div className="footer-container flex flex-wrap mx-auto lg:max-w-screen-xl lg:px-8 md:px-24">
+            <div className="basis-1/4">
                 <div className="site-name">JobInventory</div>
-                <div className="site-des">There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</div>
+                <div className="site-des my-5">There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</div>
 
                 <div className="social-links">
-                    <ul>
-                        <li><a href="#"><i></i></a></li>
-                        <li><a href="#"><i></i></a></li>
-                        <li><a href="#"><i></i></a></li>
-                    </ul>
+                    <img src="/assets/Icons/Group 9969.png" alt="" />
                 </div>
             </div>
-            <div className="flex-basis-15"></div>
-            <div className="flex-basis-15"></div>
-            <div className="flex-basis-15"></div>
-            <div className="flex-basis-15"></div>
+            <div className="basis-1/6">
+                <div className="footer-link-category">Company</div>
+                <ul className="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Latest News</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div className="basis-1/6">
+            <div className="footer-link-category">Product</div>
+                <ul className="footer-links">
+                    <li><a href="#">Prototype</a></li>
+                    <li><a href="#">Plans & Pricing</a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Integration</a></li>
+                </ul>
+            </div>
+            <div className="basis-1/6">
+            <div className="footer-link-category">Support</div>
+                <ul className="footer-links">
+                    <li><a href="#">Help Desk</a></li>
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Become a Partner</a></li>
+                    <li><a href="#">Developers</a></li>
+                </ul>
+            </div>
+            <div className="basis-1/4">
+            <div className="footer-link-category">Contact</div>
+                <p className="contact-info">524 Broadway , NYC <br />
++1 777 - 978 - 5570</p>
+            </div>
         </div>
+        <hr className="separetor lg:max-w-screen-xl mx-auto lg:px-8 md:px-24" />
+
+        <div className="rights flex justify-between lg:max-w-screen-xl mx-auto lg:px-8 md:px-24">
+            <div className="right">@2023 <b>JobInventory</b>. All Rights Reserved</div>
+            <div className="powered-by">Powered by <b>JobInventory</b></div>
+        </div>
+        </footer>
     )
 };
 
