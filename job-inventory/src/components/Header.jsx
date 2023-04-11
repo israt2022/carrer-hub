@@ -7,8 +7,8 @@ const Header = () => {
 
   return (
     <div className='px-4 py-4 mx-auto sm:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
-        <div className='relative flex items-center justify-between'>
-          <h1 className='header-site-name'>JobInventory</h1>
+        <div className='relative flex items-center justify-center sm:justify-between'>
+          <h1 className='header-site-name sm:text-left'>JobInventory</h1>
 
           <ul className='items-center justify-around hidden space-x-8 lg:flex nav-links'>
             <li>
@@ -33,7 +33,7 @@ const Header = () => {
             </li>
           </ul>
 
-          <button className='start-applying-btn'>Start Applying</button>
+          <button className='start-applying-btn hidden sm:inline'>Start Applying</button>
       </div>
     </div>
 

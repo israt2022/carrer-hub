@@ -326,3 +326,18 @@ hr.separetor {
 /* or 22px */
     color: rgba(255, 255, 255, 0.4);
 }
+
+/* Responsive Style */
+
+@media (max-width: 1024px){
+    .hero-image{
+        display: none;
+    }
+    .hero-text-container{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    /* .category-container{
+        justify-content: center;
+    } */
+}
