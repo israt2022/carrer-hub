@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <div className='px-4 py-4 mx-auto sm:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8'>
         <div className='relative flex items-center justify-between'>
-          <h1 className='text-xl font-bold'>JobInventory</h1>
+          <h1 className='header-site-name'>JobInventory</h1>
 
-          <ul className='items-center justify-around hidden space-x-8 lg:flex'>
+          <ul className='items-center justify-around hidden space-x-8 lg:flex nav-links'>
             <li>
               <NavLink to='/' className={({ isActive }) => (isActive ? 'text-blue-600' : '')}>
                 Home
@@ -33,7 +33,7 @@ const Header = () => {
             </li>
           </ul>
 
-          <button className='btn'>Star Applying</button>
+          <button className='start-applying-btn'>Start Applying</button>
       </div>
     </div>
 

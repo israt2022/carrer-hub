@@ -20,6 +20,10 @@ const FeaturedJobs = () => {
         <div className="featured-jobs-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
             {featuredJobs?.map(job => <SingleJob key={job.id} jobData={job}/>)}
         </div>
+
+        <div className="see-all-jobs-btn-container">
+            <button className="see-all-jobs">See All Jobs</button>
+        </div>
     </div>
  )
 }

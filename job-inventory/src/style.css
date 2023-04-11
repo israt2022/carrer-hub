@@ -105,7 +105,7 @@ p.category-section-subtitle {
 .view-details-btn {
     background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
     border-radius: 4px;
-    padding: 11px;
+    padding: 11px 18px;
     width: -moz-fit-content;
     width: fit-content;
     margin-top: 24px;
@@ -163,4 +163,100 @@ p.category-section-subtitle {
     font-size: 20px;
     line-height: 27px;
     color: #757575;
+}
+
+.see-all-jobs-btn-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+button.see-all-jobs {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 19px 28px;
+}
+
+.hero-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 100px;
+    color: #1A1919;
+}
+
+.hero-text > span {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.get-startrd-btn {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 19px 28px;
+    margin-top: 32px;
+}
+
+.hero-sub-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.start-applying-btn {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 19px 28px;
+}
+
+.head {
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+}
+
+
+.hero-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.header-site-name{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 44px;
+color: #1A1919;
+}
+
+.nav-links li a {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
 }
