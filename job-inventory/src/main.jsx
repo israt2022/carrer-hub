@@ -9,6 +9,7 @@ import AppliedJobs from './components/AppliedJobs';
 import Blog from './components/Blog';
 import JobDetails from './components/JobDetails';
 import AllJobs from './components/AllJobs';
+import Error404 from './components/Error404';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "/all-jobs",
         element: <AllJobs/>,
+      },
+      {
+        path: "*",
+        element: <Error404/>,
       }
     ]
   },
