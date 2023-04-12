@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <div className="px-4 py-4 mx-auto sm:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
   <div className="relative flex items-center justify-between">
-    <h1 className="header-site-name sm:text-left">JobInventory</h1>
+    <h1 className="header-site-name sm:text-left"><NavLink to="/">JobInventory</NavLink></h1>
 
     <div className="flex lg:hidden">
       <button type="button" onClick={()=>menuDisplayHandler()} className="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600 menu-toggler" aria-label="Toggle menu">

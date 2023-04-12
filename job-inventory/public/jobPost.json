@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "job_post": "Software Engineer",
         "company": "Google LLC",
         "company_logo": "/assets/Logo/google-1-1 1-1.png",
@@ -13,11 +13,12 @@
         "education_requirement": "Bachelor's degree in Computer Science or a related field",
         "experience": "3+ years of software engineering experience",
         "phone": "(555) 123-4567",
-        "email": "jobs@abc-tech.com"
+        "email": "jobs@abc-tech.com",
+        "applied": true
       },
       
       {
-        "id": "2",
+        "id": 2,
         "job_post": "Marketing Manager",
         "company": "Tesla",
         "company_logo": "/assets/Logo/tesla-9 1.png",
@@ -30,11 +31,12 @@
         "education_requirement": "Bachelor's degree in Marketing or a related field",
         "experience": "5+ years of marketing experience",
         "phone": "(555) 987-6543",
-        "email": "jobs@xyz-corp.com"
+        "email": "jobs@xyz-corp.com",
+        "applied": false
       },
 
       {
-        "id": "3",
+        "id": 3,
         "job_post": "Marketing Manager",
         "company": "Google LLC",
         "company_logo": "/assets/Logo/google-1-1 1-1.png",
@@ -47,11 +49,12 @@
         "education_requirement": "Bachelor's degree in Marketing or related field",
         "experience": "5+ years of experience in marketing management",
         "phone": "555-555-1234",
-        "email": "jobs@abccompany.com"
+        "email": "jobs@abccompany.com",
+        "applied": true
       },
 
       {
-        "id": "4",
+        "id": 4,
         "job_post": "Software Engineer",
         "company": "Tesla",
         "company_logo": "/assets/Logo/tesla-9 1.png",
@@ -64,11 +67,12 @@
         "education_requirement": "Bachelor's degree in Computer Science or related field",
         "experience": "3+ years of experience in web development",
         "phone": "555-555-5678",
-        "email": "careers@xyztech.com"
+        "email": "careers@xyztech.com",
+        "applied": false
       },
 
       {
-        "id": "5",
+        "id": 5,
         "job_post": "Software Engineer",
         "company": "Netflix",
         "company_logo": "/assest/Logo/netflix-4 1.png",
@@ -81,10 +85,11 @@
         "education_requirement": "Bachelor's or Master's degree in Computer Science or related field",
         "experience": "2+ years of experience in software development",
         "phone": "(123) 456-7890",
-        "email": "careers@google.com"
+        "email": "careers@google.com",
+        "applied": true
       },
       {
-        "id": "6",
+        "id": 6,
         "job_post": "Marketing Manager",
         "company": "Airbnb",
         "company_logo": "/assest/All Images/airbnb.png",
@@ -97,6 +102,7 @@
         "education_requirement": "Bachelor's or Master's degree in Marketing, Business, or related field",
         "experience": "5+ years of experience in marketing",
         "phone": "(123) 456-7890",
-        "email": "careers@apple.com"
+        "email": "careers@apple.com",
+        "applied": false
       }
 ]
