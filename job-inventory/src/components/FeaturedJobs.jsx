@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SingleJob from "./SingleJob";
+import { NavLink } from "react-router-dom";
 
 const FeaturedJobs = () => {
 
@@ -22,7 +23,7 @@ const FeaturedJobs = () => {
         </div>
 
         <div className="see-all-jobs-btn-container">
-            <button className="see-all-jobs">See All Jobs</button>
+            <NavLink className="see-all-jobs" to="/all-jobs">See All Jobs</NavLink>
         </div>
     </div>
  )
