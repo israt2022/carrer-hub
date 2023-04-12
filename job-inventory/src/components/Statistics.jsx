@@ -10,6 +10,8 @@ import {
   ReferenceLine,
   ResponsiveContainer,
 } from 'recharts';
+import Header from './Header';
+import Footer from './Footer';
 
 const Statistics = () => {
 
@@ -47,18 +49,28 @@ const Statistics = () => {
     
   ];
   return (
-    <div className='mt-8'>
-        <LineChart 
-        width={800}
-        height={500}
+    <>
+            <div className="page-head">
+                <Header/>
+                <h2 className="page-title">Assignment Marks</h2>
+            </div>
+    <div className='my-20 mx-auto'>
+
+    <ResponsiveContainer height={300} width={"80%"} className="mx-auto">
+    <LineChart 
         data={data}
+
+        className='mx-auto'
         >
           <Line type="monotone" dataKey="marks" stroke="#8884d8" activeDot={{ r: 8 }} />
           <XAxis dataKey="id" padding={{ left: 30, right: 30 }}></XAxis>
           <YAxis></YAxis>
           <Tooltip></Tooltip>
         </LineChart>
+    </ResponsiveContainer>
     </div>
+    <Footer/>
+    </>
   );
 };
 
