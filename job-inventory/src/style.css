@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -372,5 +373,60 @@ hr.separetor {
     .single-category-container .icon{
         margin: auto;
     }
+
+    h2.page-title {
+        padding-top: 60px!important;
+        padding-bottom: 80px!important;
+    }
     
+}
+
+
+/* Job Details Page Style */
+
+.page-head {
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    position: relative;
+}
+
+h2.page-title {
+    padding-top: 120px;
+    padding-bottom: 140px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1A1919;
+    text-align: center;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.page-head::before{
+    content: "";
+    background-image: url("/src/VectorImg/Vector-art-1.png");
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-repeat: no-repeat;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.page-head::after{
+    content: "";
+    background-image: url("/src/VectorImg/Vector-art-2.png");
+    width: 25%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-position: top;
+    background-size: contain;
 }

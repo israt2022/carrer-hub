@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const SingleJob = ({jobData}) => {
     return(
@@ -17,7 +18,7 @@ const SingleJob = ({jobData}) => {
                 <div className="job-salary"><img src="/assets/Icons/Vector.png" className="inline" alt="currency" />{" "+ jobData.salary}</div>
             </div>
 
-            <div className="view-details-btn"><a href={`/job/${jobData.id}`}>View Details</a></div>
+            <div className="view-details-btn"><NavLink to={`/job/${jobData.id}`}>View Details</NavLink></div>
         </div>
     )
 }
