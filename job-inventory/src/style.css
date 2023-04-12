@@ -150,14 +150,6 @@ p.category-section-subtitle {
     margin: 16px 0px;
 }
 
-.job-type {
-    margin-left: 16px;
-}
-
-.job-salary {
-    margin-left: 16px;
-}
-
 .job-location-and-salary > * {
     font-family: 'Manrope';
     font-style: normal;
