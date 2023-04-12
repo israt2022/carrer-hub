@@ -595,3 +595,9 @@ select#filters {
     line-height: 27px;
     color: #474747;
 }
+
+/* rechart customization */
+
+.custom-tooltip {
+    border: 1px solid lightblue;
+}
