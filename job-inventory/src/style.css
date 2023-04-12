@@ -240,11 +240,11 @@ p.category-section-subtitle {
 }
 .header-site-name{
     font-family: 'Manrope';
-font-style: normal;
-font-weight: 800;
-font-size: 32px;
-line-height: 44px;
-color: #1A1919;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #1A1919;
 }
 
 .nav-links li a {
@@ -300,7 +300,6 @@ ul.footer-links li a, .contact-info {
     font-weight: 400;
     font-size: 16px;
     line-height: 40px;
-/* or 250% */
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -316,7 +315,6 @@ hr.separetor {
     font-weight: 400;
     font-size: 14px;
     line-height: 160%;
-/* or 22px */
     color: rgba(255, 255, 255, 0.4);
 }
 
@@ -553,10 +551,6 @@ p.blog-post-content {
     font-weight: 800;
     font-size: 24px;
     line-height: 33px;
-/* identical to box height */
-
-
-/* Dark 02 */
     color: #474747;
 }
 
@@ -566,10 +560,6 @@ p.blog-post-content {
     font-weight: 600;
     font-size: 24px;
     line-height: 33px;
-/* identical to box height */
-
-
-/* Dark 03 */
     color: #757575;
 }
 
@@ -595,4 +585,13 @@ p.blog-post-content {
     font-weight: 800;
     font-size: 16px;
     line-height: 22px;
+}
+
+select#filters {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #474747;
 }

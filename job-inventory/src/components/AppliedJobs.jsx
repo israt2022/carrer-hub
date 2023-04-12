@@ -57,7 +57,7 @@ useEffect(()=>{
             </select>
         </div>
           {
-            filteredJobs?.length === undefined ? <p>Not applied in any job yet!</p> : filteredJobs?.map(job => <SingleAppliedJob key={job.id} jobData={job}/>)
+            (filteredJobs?.length === 0 || filteredJobs?.length === undefined) ? <p className='text-center'>Nothings here!</p> : filteredJobs?.map(job => <SingleAppliedJob key={job.id} jobData={job}/>)
           }
         </div>
 
