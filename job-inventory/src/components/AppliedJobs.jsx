@@ -26,16 +26,16 @@ useEffect(()=>{
     setFilteredJobs(jobs);
 
   } else if(filter === "remote"){
-    const remoteJob = jobs.filter(job => job.job_mode === "Remote");
+    const remoteJob = jobs?.filter(job => job.job_mode === "Remote");
     setFilteredJobs(remoteJob);
   } else if(filter === "onsite"){
-    const onsiteJobs = jobs.filter(job => job.job_mode === "Onsite");
+    const onsiteJobs = jobs?.filter(job => job.job_mode === "Onsite");
     setFilteredJobs(onsiteJobs);
   } else if(filter === "full-time"){
-    const fullTimeJobs = jobs.filter(job => job.job_type === "Full Time");
+    const fullTimeJobs = jobs?.filter(job => job.job_type === "Full Time");
     setFilteredJobs(fullTimeJobs);
   } else if(filter === "part-time"){
-    const partTimeJobs = jobs.filter(job => job.job_type === "Part Time");
+    const partTimeJobs = jobs?.filter(job => job.job_type === "Part Time");
     setFilteredJobs(partTimeJobs);
   }
 },[jobs, filter])
