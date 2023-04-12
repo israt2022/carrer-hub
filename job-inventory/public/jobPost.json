@@ -13,8 +13,7 @@
         "education_requirement": "Bachelor's degree in Computer Science or a related field",
         "experience": "3+ years of software engineering experience",
         "phone": "(555) 123-4567",
-        "email": "jobs@abc-tech.com",
-        "applied": true
+        "email": "jobs@abc-tech.com"
       },
       
       {
@@ -22,7 +21,7 @@
         "job_post": "Marketing Manager",
         "company": "Tesla",
         "company_logo": "/assets/Logo/tesla-9 1.png",
-        "job_mode": "onsite",
+        "job_mode": "Onsite",
         "job_type": "part-time",
         "company_location": "New York, NY",
         "salary": "$60,000 - $80,000",
@@ -31,8 +30,7 @@
         "education_requirement": "Bachelor's degree in Marketing or a related field",
         "experience": "5+ years of marketing experience",
         "phone": "(555) 987-6543",
-        "email": "jobs@xyz-corp.com",
-        "applied": false
+        "email": "jobs@xyz-corp.com"
       },
 
       {
@@ -49,8 +47,7 @@
         "education_requirement": "Bachelor's degree in Marketing or related field",
         "experience": "5+ years of experience in marketing management",
         "phone": "555-555-1234",
-        "email": "jobs@abccompany.com",
-        "applied": true
+        "email": "jobs@abccompany.com"
       },
 
       {
@@ -67,8 +64,7 @@
         "education_requirement": "Bachelor's degree in Computer Science or related field",
         "experience": "3+ years of experience in web development",
         "phone": "555-555-5678",
-        "email": "careers@xyztech.com",
-        "applied": false
+        "email": "careers@xyztech.com"
       },
 
       {
@@ -85,15 +81,14 @@
         "education_requirement": "Bachelor's or Master's degree in Computer Science or related field",
         "experience": "2+ years of experience in software development",
         "phone": "(123) 456-7890",
-        "email": "careers@google.com",
-        "applied": true
+        "email": "careers@google.com"
       },
       {
         "id": 6,
         "job_post": "Marketing Manager",
         "company": "Airbnb",
-        "company_logo": "/assest/All Images/airbnb.png",
-        "job_mode": "onsite",
+        "company_logo": "/assets/All Images/airbnb.png",
+        "job_mode": "Onsite",
         "job_type": "part-time",
         "company_location": "Cupertino, CA",
         "salary": "$80,000 - $100,000 per year",
@@ -102,7 +97,6 @@
         "education_requirement": "Bachelor's or Master's degree in Marketing, Business, or related field",
         "experience": "5+ years of experience in marketing",
         "phone": "(123) 456-7890",
-        "email": "careers@apple.com",
-        "applied": false
+        "email": "careers@apple.com"
       }
 ]

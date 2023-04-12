@@ -519,3 +519,88 @@ hr.title-separetor {
 .info-value{
     margin-left: 8px;
 }
+
+/* Blog post page */
+
+h1.blog-post-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-family: 'Manrope';
+    font-weight: 800;
+    color: blueviolet;
+}
+
+p.blog-post-content {
+    font-family: 'Manrope';
+    font-weight: 400;
+}
+
+/* applied job page */
+
+.single-applied-job-container {
+    border: 1px solid #E8E8E8;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+.job-company-logo {
+    height: 240px;
+    width: 240px;
+    background: #F4F4F4;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.job-post-name {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+/* identical to box height */
+
+
+/* Dark 02 */
+    color: #474747;
+}
+
+.job-company {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+/* identical to box height */
+
+
+/* Dark 03 */
+    color: #757575;
+}
+
+.applied-job-data {
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.job-types-container > * {
+    border: 1px solid #7E90FE;
+    border-image-slice: 1;
+    border-radius: 4px;
+    padding: 9px 20px;
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+}
